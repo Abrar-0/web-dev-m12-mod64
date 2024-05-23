@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import icon from '../../../assets/icon/151-1511569_cart-notifications-free-shopping-cart-favicon-hd-png-removebg-preview.png'
+// import icon from '../../../assets/icon/151-1511569_cart-notifications-free-shopping-cart-favicon-hd-png-removebg-preview.png'
 
 const NavBar = () => {
   const nav = (
     <>
       <li>
-        <NavLink>Home</NavLink>
+        <NavLink to={"/"}>Home</NavLink>
       </li>
       <li>
         <NavLink>Contact Us</NavLink>
@@ -14,11 +14,11 @@ const NavBar = () => {
         <NavLink className="">Dashboard</NavLink>
       </li>
       <li>
-        <NavLink>Our Menu</NavLink>
+        <NavLink to={"/menu"}>Our Menu</NavLink>
       </li>
       <li>
         <NavLink>Our Shop</NavLink>
-        <img src={icon} className="w-10" alt="" />
+        {/* <img src={icon} className="w-[50px] h-[30px] p-0" alt="" /> */}
       </li>
       <li className="flex flex-row">
         <button>Sign Out</button>
