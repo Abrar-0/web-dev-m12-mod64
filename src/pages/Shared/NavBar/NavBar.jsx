@@ -17,7 +17,7 @@ const NavBar = () => {
         <NavLink to={"/menu"}>Our Menu</NavLink>
       </li>
       <li>
-        <NavLink>Our Shop</NavLink>
+        <NavLink to={"/order"}>Our Shop</NavLink>
         {/* <img src={icon} className="w-[50px] h-[30px] p-0" alt="" /> */}
       </li>
       <li className="flex flex-row">
