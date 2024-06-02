@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // import icon from '../../../assets/icon/151-1511569_cart-notifications-free-shopping-cart-favicon-hd-png-removebg-preview.png'
 
 const NavBar = () => {
@@ -21,7 +21,7 @@ const NavBar = () => {
         {/* <img src={icon} className="w-[50px] h-[30px] p-0" alt="" /> */}
       </li>
       <li className="flex flex-row">
-        <button>Sign Out</button>
+        <Link to={"/login"}><button>Login</button></Link>
         <div className="avatar -mt-3 -ml-6">
           <div className="w-10 rounded">
           <svg width="40" height="40" viewBox="0 0 55 50" fill="none" xmlns="http://www.w3.org/2000/svg">
